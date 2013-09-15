@@ -3,14 +3,6 @@ require 'uri'
 require 'twilio-ruby'
 require 'puma'
 
-#ail.defaults do
- # retriever_method :pop3, :address    => "pop.gmail.com",
-#                          :port       => 995,
-#                          :user_name  => '<username>',
-#                          :password   => '<password>',
-#                          :enable_ssl => true
-#end
-
 class YouveGotMail < Sinatra::Base
 	configure do
 	  set :notify_numbers, ENV['NOTIFY_NUMBERS'].split(',')
