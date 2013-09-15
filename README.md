@@ -1,4 +1,6 @@
-youve_got_mail
+You've Got Mail!
 ==============
 
-SImple App that calls you and reads the subject of an email. 
+Simple Sinatra App that calls you and reads the subject of an email. 
+
+Details at blog.sefindustries.com
